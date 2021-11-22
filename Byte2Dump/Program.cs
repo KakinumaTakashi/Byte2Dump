@@ -17,7 +17,7 @@ namespace Byte2Dump
             //_byteToDump.HeaderSpan = 10;
 
             using (FileStream _reader = new FileStream(
-                @"C:\Users\Takashi Kakinuma\Dropbox\Photos\乃木坂46\25th Prof\endousakura_prof.jpg", FileMode.Open))
+                @"xxx.jpg", FileMode.Open))
             {
                 byte[] _buffer = new byte[1024];
                 long _readByte = _reader.Length;
